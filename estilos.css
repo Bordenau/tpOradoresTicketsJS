@@ -104,14 +104,15 @@ h6{
     background-color: rgb(33, 187, 33);
     width: 48%;
  }
+ 
 
+ /*MENSAJES AUTENTICACION*/
 
-                                                          /*RESPUESTA VALIDACION*/
-
-.mensajeNombre{
-    margin-top: 2%;
-  
-}
+ .contenedorMensajesAutenticacion{
+    margin-top: 3%;
+    margin-left: 20%;
+    color: red;
+ }
  
 
 /*FOOTER*/
