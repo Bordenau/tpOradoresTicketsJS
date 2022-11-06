@@ -21,8 +21,6 @@ const categoria = document.getElementById("seleccionCategoria");
 const mensajeCategoria = document.getElementById ("mensajeCategoria");
 
 
-const botonBorrar = document.getElementById("Borrar")
-
 const botonResumen = document.getElementById("Resumen")
 
 
@@ -90,8 +88,6 @@ botonResumen.addEventListener("click", validarApellido);
 botonResumen.addEventListener("click", validarCorreo);
 botonResumen.addEventListener("click", validarCategoria);
 botonResumen.addEventListener("click", validarCantidad);
-
-botonBorrar.addEventListener("click", botonBorrar);
 
 
 /*VALOR ENTRADAS CON DESCUENTO*/
