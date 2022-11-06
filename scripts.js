@@ -61,6 +61,7 @@ function validarCorreo () {
     }
 }
 
+
 /*FUNCION VALIDAR CANTIDAD*/
 
 function validarCantidad(){
@@ -70,6 +71,7 @@ function validarCantidad(){
         mensajeCantidad.innerHTML = "Cantidad correcta"; 
     }
 }
+
 
 /*FUNCION VALIDAR CATEGORIA*/
 
@@ -122,4 +124,3 @@ function total_pago(){
 }
  
 botonResumen.addEventListener("click", total_pago);
-
