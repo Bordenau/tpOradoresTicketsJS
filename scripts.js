@@ -21,7 +21,11 @@ const categoria = document.getElementById("seleccionCategoria");
 const mensajeCategoria = document.getElementById ("mensajeCategoria");
 
 
+const botonBorrar = document.getElementById("Borrar")
+
 const botonResumen = document.getElementById("Resumen")
+
+
 
 
 /*FUNCION VALIDAR NOMBRE*/
@@ -80,11 +84,14 @@ function validarCategoria(){
  
 }
 
+
 botonResumen.addEventListener("click", validarNombre);
 botonResumen.addEventListener("click", validarApellido);
 botonResumen.addEventListener("click", validarCorreo);
 botonResumen.addEventListener("click", validarCategoria);
 botonResumen.addEventListener("click", validarCantidad);
+
+botonBorrar.addEventListener("click", botonBorrar);
 
 
 /*VALOR ENTRADAS CON DESCUENTO*/
@@ -119,3 +126,4 @@ function total_pago(){
 }
  
 botonResumen.addEventListener("click", total_pago);
+
